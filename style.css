@@ -36,12 +36,12 @@ body{
     margin-top: 40px;
 }
 .selling-points img {
-position:absolute;
-display:block;
-max-width: 20%;
-height: auto;
-top: 0;
-left:0;
+    position:absolute;
+    display:block;
+    max-width: 20%;
+    height: auto;
+    top: 0;
+    left:0;
 }
 .about {
     padding-top:100px;
@@ -62,17 +62,47 @@ left:0;
     cursor:default !important;
 }
 #accordion .right {
-right: 15px;
-position: absolute;
+    right: 15px;
+    position: absolute;
 }
 .about .point {
     border-bottom: 1px solid;
     padding: 8px 0;
 }
-.clear.subscribe_clear {
+.cta.clear.subscribe_clear {
     float: right;
     margin-right: 14px;
 }
+.follow {
+    padding-top: 4px;
+    padding-left: 8px;
+}
+.social-media {
+    padding: 4px 0;
+}
+.cta {
+    padding: 80px 0;
+}
 .cta h4 {
     padding: 16px 0;
+}
+.footer {
+    background-color: rgb(51,51,51)
+}
+.footer > * {
+    color:white !important;
+}
+.footer a {
+    color:white;
+}
+.about a:hover{
+    text-decoration:none !important;
+    font-weight:bold !important;
+    cursor:default !important;
+}
+.footer {
+    padding: 80px 0;
+}
+.copyright {
+    font-size:12px;
 }
