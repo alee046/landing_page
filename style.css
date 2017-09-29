@@ -21,7 +21,8 @@ body{
     padding-bottom:200px;
 }
 .selling-points {
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom:100px;
 }
 .selling-points h3{
     font-size: 18px;
@@ -32,13 +33,46 @@ body{
 }
 .selling-points .text{
     margin-left: 40px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .selling-points img {
 position:absolute;
 display:block;
-max-width: 30%;
+max-width: 20%;
 height: auto;
 top: 0;
 left:0;
+}
+.about {
+    padding-top:100px;
+    background-color: rgb(240,240,240);
+    padding-bottom:300px;
+}
+.about h4 {
+    font-size: 18px;
+    font-weight:bold;
+    padding: 16px 0;
+}
+.about a {
+    color:black;
+}
+.about a:hover{
+    text-decoration:none !important;
+    font-weight:bold !important;
+    cursor:default !important;
+}
+#accordion .right {
+right: 15px;
+position: absolute;
+}
+.about .point {
+    border-bottom: 1px solid;
+    padding: 8px 0;
+}
+.clear.subscribe_clear {
+    float: right;
+    margin-right: 14px;
+}
+.cta h4 {
+    padding: 16px 0;
 }
