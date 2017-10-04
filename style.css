@@ -3,12 +3,14 @@
 #mc_embed_signup form {
     padding:0 !important;
 }
+@font-face { font-family: JamesFajardo; src: url('james-fajardo.ttf'); } 
 
 .header h1 {
     padding: 16px 0;
 }
 .logo{
-	font-family: 'Roboto';
+    font-family: 'Roboto';
+    letter-spacing: 20px;
 }
 body{
 	font-family: 'Montserrat', sans-serif !important;
@@ -16,6 +18,9 @@ body{
 .hero {
     background-color: rgb(89,89,89);
     color: white;
+    font-family: 'JamesFajardo';
+    font-size: 20px;
+    letter-spacing: 4px;
 }
 a {
     color: #FA978F;
@@ -76,8 +81,9 @@ padding: 20px;
     color: rgb(89,89,89);
 }
 .selling-points .text{
-    margin-left: 40px;
+    margin-left: 80px;
     margin-top: 40px;
+    z-index:9;
 }
 .selling-points img {
     position:absolute;
@@ -86,21 +92,38 @@ padding: 20px;
     height: auto;
     top: 0;
     left:5%;
+    z-index: -5;
 }
 .about {
     background-color: rgb(240,240,240);
-        padding-top:100px;
+        padding-top:50px;
     padding-bottom:200px;
 
+}
+.about {
+font-size:12px;
+
+}
+.about h3 {
+    font-size: 18px;
+    font-weight:bold;
+    padding: 16px 0;
 }
 .about h4 {
     font-size: 18px;
     font-weight:bold;
     padding: 16px 0;
 }
+.about h5 {
+    font-size: 18px;
+    font-weight:bold;
+}
 .about a {
     color:black;
 }
+div#headingOne{margin-bottom:20px;}
+div#headingTwo{margin-bottom:20px;}
+div#headingThree{margin-bottom:20px;}
 .about a:hover{
     text-decoration:none !important;
     font-weight:bold !important;
@@ -113,6 +136,8 @@ padding: 20px;
 .about .point {
     border-bottom: 1px solid;
     padding: 8px 0;
+    font-size:12px;
+    margin-bottom: 20px;
 }
 .cta.clear.subscribe_clear {
     float: right;
@@ -153,7 +178,7 @@ padding: 20px;
     /* top: 50%; */
     width: 100%;
     z-index: 0;
-    height: 572px;
+    height: 90vh;
     background-color:black; 
     position:absolute; 
 }
